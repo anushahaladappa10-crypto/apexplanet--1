@@ -18,18 +18,24 @@
 
     <header>
 
-        <div class="logo">
-            Travel Explorer<span>.</span>
-        </div>
+    <div class="logo">
+        Travel Explorer<span>.</span>
+    </div>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+    <div class="menu-toggle" id="menuToggle">
+        ☰
+    </div>
 
-    </header>
+    <nav id="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <button id="themeBtn">🌙</button>
+
+</header>
 
     <!-- HERO SECTION -->
 
@@ -51,7 +57,44 @@
         </a>
 
     </section>
+<section class="slider-section">
 
+    <h2 class="section-title">Featured Destinations</h2>
+
+    <div class="slider">
+
+        <img id="sliderImage"
+        src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1000"
+        alt="Travel Destination">
+
+    </div>
+
+</section>
+<section class="counter-section">
+
+    <div class="counter-box">
+        <h2 class="counter" data-target="500">0</h2>
+        <p>Happy Travelers</p>
+    </div>
+
+    <div class="counter-box">
+        <h2 class="counter" data-target="100">0</h2>
+        <p>Destinations</p>
+    </div>
+
+    <div class="counter-box">
+        <h2 class="counter" data-target="50">0</h2>
+        <p>Tour Packages</p>
+    </div>
+
+</section>
+<section class="offer-section">
+
+    <button id="offerBtn" class="btn">
+        🎁 View Special Offer
+    </button>
+
+</section>
     <!-- POPULAR DESTINATIONS -->
 
     <section class="container">
@@ -119,6 +162,23 @@
 
     </footer>
 
+<button id="topBtn">⬆</button>
+<div id="offerModal" class="modal">
+
+    <div class="modal-content">
+
+        <span id="closeModal">&times;</span>
+
+        <h2>🌴 Summer Travel Offer</h2>
+
+        <p>
+            Get 20% OFF on Goa, Kashmir, Kerala and Udaipur tour packages!
+        </p>
+
+    </div>
+
+</div>
+<script src="script.js"></script>
 </body>
 
 </html>
